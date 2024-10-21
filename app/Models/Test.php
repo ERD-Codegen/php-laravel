@@ -10,11 +10,11 @@ class Test extends Model
     use HasFactory;
 
     protected $fillable = [
-        // Assuming columns to be filled later
+        'test',
     ];
 
     protected $casts = [
-        // Assuming casts to be defined later
+        'test' => 'string',
     ];
 
     // Assuming relationships to be defined later
